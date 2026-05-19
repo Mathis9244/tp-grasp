@@ -1,0 +1,15 @@
+Réponses TP GRASP
+
+1) VO : Constructor, Model
+   Entity : Plane, Company
+
+2) mvnw test
+
+3) constructeur Plane en package-private, création via PlaneFactory
+
+4) Model : equals(Object) au lieu de equals(Model)
+   Company : ajout hashCode() pour HashSet
+
+5) CompanyFactory avec Set des noms déjà utilisés
+
+6) FleetsRepository : deux maps (compagnie -> avions, avion -> compagnie)

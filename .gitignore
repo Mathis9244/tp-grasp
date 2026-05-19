@@ -1,0 +1,28 @@
+# Local
+empty-hooks/
+
+# Build
+target/
+out/
+*.class
+*.jar
+!lib/.gitkeep
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local tools (Maven portable parent folder)
+../tools/
+
+# Cours / brouillons
+*.pdf
+pdf_extract.txt
